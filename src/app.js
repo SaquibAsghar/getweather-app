@@ -7,8 +7,6 @@ const getGeoInfo = require("../utils/geoLocation");
 
 const publicDirectory = path.join(__dirname, "../static/public/");
 
-// app.use(path.join(__dirname + '../static/public/css'))
-
 const app = express();
 const port = process.env.PORT || 3000;
 
