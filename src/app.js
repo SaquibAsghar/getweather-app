@@ -4,8 +4,6 @@ const hbs = require("hbs");
 const getWeatherForcast = require("../utils/getWeather");
 const getGeoInfo = require("../utils/geoLocation");
 
-// console.log(__dirname);
-// console.log(__filename)
 
 const publicDirectory = path.join(__dirname, "../static/public/");
 
